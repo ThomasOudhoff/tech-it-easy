@@ -1,4 +1,4 @@
-import { bestSellingTv } from 'src/constants/inventory';
+import { bestSellingTv } from 'src/constants/inventory.js';
 let mostSellingTv = 0;
 let bestSellingTvName = "";
 

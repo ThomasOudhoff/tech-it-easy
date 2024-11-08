@@ -1,4 +1,4 @@
-import { bestSellingTv } from 'src/helpers/purchasedHelper';
+import { bestSellingTv } from 'src/constants/inventory.js';
 export function purchasedTv() {
     let counterPurchasedTV = 0;
     for (let i = 0; i < bestSellingTv.length; i++) {
