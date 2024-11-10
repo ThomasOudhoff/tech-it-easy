@@ -2,10 +2,14 @@ import './App.css';
 import { searchBestSale } from './helpers/salesHelper.js';
 import { purchasedTv } from './helpers/purchasedHelper.js';
 import { yetToSell } from  './helpers/yetToSellHelper.js';
+import { generateTvName } from './helperFunctions.js';
+
 function App() {
     const soldTvCount = searchBestSale();
     const purchasedTvCount = purchasedTv();
     const tvsLeftToSell = yetToSell()
+    const tvName = generateTvName(bestSellingTv);
+
   return (
       <div>
           <h1>Dashboard</h1>
